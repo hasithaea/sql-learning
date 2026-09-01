@@ -7,3 +7,10 @@ describe bookshop;
 alter table bookshop modify address varchar(50);
 
 describe bookshop;
+
+insert into bookshop values ("BS01", "Sarasavi", "0112946058", "Colombo 04");
+insert into bookshop values ("BS02", "Godage", NULL, "Main Street");
+insert into bookshop values ("BS03", "Gunasena", "0912546893", NULL);
+insert into bookshop values ("BS04", "Samudra", "0415670045", "Dharmapala Mawatha");
+
+select * from bookshop;
