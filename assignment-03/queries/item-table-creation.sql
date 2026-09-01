@@ -12,6 +12,10 @@ insert into item values("IT19", "Highliter", 150.00, 0, NULL);
 insert into item values("IT20", "Scissors", 100.00, 0, "Mango");
 insert into item values("IT24", "Flash Drive", 1500.00, 1, "Kingston");
 
-// IT 24 is mistaken for IT14
+/* IT 24 is mistaken for IT14 */
 
 update item set itCode = "IT14" where itCode = "IT24";
+
+/* forgot to add primary key */
+
+alter table item add primary key (itcode);
