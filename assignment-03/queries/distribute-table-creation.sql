@@ -1,0 +1,1 @@
+create table distribute (itCode char(4), bsCode char(4), qty int, date date, primary key (itCode, bsCode));
