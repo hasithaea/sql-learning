@@ -37,6 +37,7 @@ CREATE TABLE `item` (
 
 LOCK TABLES `item` WRITE;
 /*!40000 ALTER TABLE `item` DISABLE KEYS */;
+INSERT INTO `item` VALUES ('IT10','Stapler',240.00,1,'Mango'),('IT11','Pen',60.00,0,'Atlas'),('IT12','Pencil',40.00,0,'Atlas'),('IT13','Eraser',20.00,0,NULL),('IT15','Backpack',4000.00,0,'DSI'),('IT16','Notebook',160.00,NULL,'Atlas'),('IT17','Folder',20.00,1,'Mango'),('IT18','Calculator',2700.00,1,'Casio'),('IT19','Highliter',150.00,0,NULL),('IT20','Scissors',100.00,0,'Mango'),('IT14','Flash Drive',1500.00,1,'Kingston');
 /*!40000 ALTER TABLE `item` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-09-02  2:49:24
+-- Dump completed on 2026-09-02  3:15:42
