@@ -1,0 +1,1 @@
+create table project (p_project_id varchar(5) primary key, p_description varchar(50), p_budget decimal(10,2), p_due_date date);

@@ -1,0 +1,1 @@
+create table task (t_emp_no varchar(5), t_project_id varchar(5), t_task varchar(50), t_hours int, primary key (t_emp_no, t_project_id, t_task), foreign key (t_emp_no) references staff (s_emp_no), foreign key (t_project_id) references project (p_project_id) );

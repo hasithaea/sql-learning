@@ -1,0 +1,1 @@
+create table staff (s_emp_no varchar(5) primary key, s_surname varchar(50), s_title varchar(50), s_hourly_rate decimal(10,2), s_manager varchar(5));
